@@ -1,5 +1,6 @@
 ### Hi there 👋
-
+My name is Sara Machetts
+I am creating my first repository for my Wake Tech class
 <!--
 **Sasox2/Sasox2** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
