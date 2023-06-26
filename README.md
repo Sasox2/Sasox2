@@ -1,4 +1,4 @@
-### Hi 👋
+### Hi 
 Sara Machetts scmachetts@my.waketech.edu
 
 I am creating my first repository for my Wake Tech class
