@@ -1,5 +1,29 @@
 body{
-    font-family: 'Work Sans', sans-serif; 
+    font-family: 'Roboto', sans-serif;
     font-size: 14px; 
     font-weight: 400; 
+}
+header h1{
+    font-family: font-family: 'Lilita One', cursive;
+}
+.size_length_example{
+    width: 10em;
+    height: 10em;
+    background-color: #B1D943;
+}
+nav ul{
+    list-style:none;
+    margin: 0px;
+    padding: 0px;
+}
+nav li{
+    display: inline;
+}
+nav a{
+    display: inline-block;
+    color: black;
+    text-decoration: none;
+    border: 1px solid bisque;
+    padding: 2em;
+    text-align: center;
 }
