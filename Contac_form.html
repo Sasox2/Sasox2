@@ -4,7 +4,12 @@
         <meta carset="UFT-8">
         <meta name="description" content="Contact Information">
         <meta name="viewport" content="widht=devise-widht, initial-scale=1.0">
-        <style>
+        <!--Font from google--> 
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Lilita+One&family=Roboto:ital,wght@0,100;1,900&display=swap" rel="stylesheet">
+        <!-- End font--> 
+       <style>
             fieldset{
                 padding: 30px;
                 background-color: gray;
@@ -18,13 +23,11 @@
                 padding: 12px 20px;
             }
             button {
-                width: 100%;
-  background-color: #4CAF50;
-  color: white;
-  padding: 14px 20px;
-  margin: 8px 0;
-  border: none;
-  border-radius: 4px;
+                width: 50%;
+                background-color:#D99B29;
+                color: #F2F1DC;
+                border: none;
+                border-radius: 4px;
 
             }
         </style>
@@ -36,15 +39,15 @@
                 <legend></legend>
                 <ul>
                     <li>
-                        <label for="firstname">First Name:</label>
+                        <label for="firstname">First Name:</label> <br>
                         <input type="text" name="firstname" id="firstname" placeholder="e.g. Juana">
                     </li>
                     <li>
-                        <label for="lastname">Last Name:</label>
+                        <label for="lastname">Last Name:</label> <br>
                         <input type="text" name="lastname" id="lastname" placeholder="Ruiz">
                     </li>
                     <li>
-                        <label for="email">Email:</label>
+                        <label for="email">Email:</label> <br>
                         <input type="text" name="email" id="email" placeholder="name@email.com">
                     </li>
                     <li>
@@ -52,7 +55,7 @@
                         <input type="text" name="yourname" id="yourname">
                     </li>
                     <li>
-                        <label for="yourname">Your Name:</label>
+                        <label for="yourname">Your Name:</label> <br>
                         <input type="text" name="yourname" id="yourname">
                     </li>
                 </ul>
@@ -60,7 +63,7 @@
             <fieldset>
                 <ul>
                     <li>
-                        <label for="message">Message</label>
+                        <label for="message">Message</label> <br>
                         <textarea row="4" cols="25" placeholder="Eample Message"></textarea>
                     </li>
                     <li><button type="submit">Submit</button></li>
