@@ -4,20 +4,48 @@
         <meta carset="UFT-8">
         <meta name="description" content="Contact Information">
         <meta name="viewport" content="widht=devise-widht, initial-scale=1.0">
+        <style>
+            fieldset{
+                padding: 30px;
+                background-color: gray;
+                border-radius: 5px;
+            }
+            ul{
+                list-style: none;
+                padding:0px;
+            }
+            input [type=text]{
+                padding: 12px 20px;
+            }
+            button {
+                width: 100%;
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+
+            }
+        </style>
     </head>
     <body>
-       <header>Foody Fruty</header>
+       <header>Contact</header>
         <form id="FormOne" action="#" method="get">
             <fieldset>
                 <legend></legend>
                 <ul>
                     <li>
-                        <label for="name">Name:</label>
-                        <input type="text" name="name" id="name">
+                        <label for="firstname">First Name:</label>
+                        <input type="text" name="firstname" id="firstname" placeholder="e.g. Juana">
+                    </li>
+                    <li>
+                        <label for="lastname">Last Name:</label>
+                        <input type="text" name="lastname" id="lastname" placeholder="Ruiz">
                     </li>
                     <li>
                         <label for="email">Email:</label>
-                        <input type="text" name="email" id="email">
+                        <input type="text" name="email" id="email" placeholder="name@email.com">
                     </li>
                     <li>
                         <label for="yourname">Phone Number:</label>
@@ -35,6 +63,7 @@
                         <label for="message">Message</label>
                         <textarea row="4" cols="25" placeholder="Eample Message"></textarea>
                     </li>
+                    <li><button type="submit">Submit</button></li>
                 </ul>
             </fieldset>
         </form>
