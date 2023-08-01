@@ -10,10 +10,16 @@
         <link href="https://fonts.googleapis.com/css2?family=Lilita+One&family=Roboto:ital,wght@0,100;1,900&display=swap" rel="stylesheet">
         <!-- End font--> 
        <style>
+            header{
+                color: #BF3939;
+                font-size: 30px;
+            }
             fieldset{
-                padding: 30px;
-                background-color: gray;
+                width:50%;
+                padding: 10px;
+                background-color: #F2F1DC;
                 border-radius: 5px;
+                border: 0px;
             }
             ul{
                 list-style: none;
@@ -34,6 +40,10 @@
     </head>
     <body>
        <header>Contact</header>
+       <div id="audio-container">
+        <audio id="audio-1" controls src="https://github.com/Sasox2/Sasox2.github.io/issues/1#issue-1831942456">Your browser does not support the HTML5 <code>audio</code>
+    </audio>
+       </div>
         <form id="FormOne" action="#" method="get">
             <fieldset>
                 <legend></legend>
@@ -48,11 +58,11 @@
                     </li>
                     <li>
                         <label for="email">Email:</label> <br>
-                        <input type="text" name="email" id="email" placeholder="name@email.com">
+                        <input type="email" name="email" id="email" placeholder="name@email.com">
                     </li>
                     <li>
-                        <label for="yourname">Phone Number:</label>
-                        <input type="text" name="yourname" id="yourname">
+                        <label for="yourname">Phone Number:</label> <br>
+                        <input type="text" name="yourname" id="yourname"placeholder=919-123-1234>
                     </li>
                     <li>
                         <label for="yourname">Your Name:</label> <br>
@@ -60,6 +70,7 @@
                     </li>
                 </ul>
             </fieldset>
+            <br>
             <fieldset>
                 <ul>
                     <li>
