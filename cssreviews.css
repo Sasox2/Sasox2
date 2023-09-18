@@ -1,0 +1,138 @@
+body{
+    background-color: #F1F8FD;
+    color:black;
+    font-family:'Roboto', sans-serif;
+    margin:0;
+    padding:0;
+}
+.container{
+    text-align: center;
+    margin: 0 50px 75px;
+    background-color: rgba(127, 255, 212, 0);
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.tittle{
+    background-color: rgba(137, 43, 226, 0);
+    width: 100%;
+    height: 20dvw;
+    align-items: center;
+    display:flex;
+    flex-direction: column;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.tittle-name{
+    font-family:'Outfit', sans-serif;
+    font-size: 40px;
+    margin-bottom: 5px;
+    
+}
+.underline{
+    width:70px;
+    height: 5px;
+    background-color:#55ACDC;
+    padding: 0;
+    margin: 0;
+}
+.card{
+    background-color: white;
+    width: 50%;
+    padding: 0 20px;
+    box-shadow: 2px 2px 15px rgba(117, 117, 117, 0.19), -2px -2px 15px rgba(117, 117, 0, 0.19);
+}
+.photo{
+    width: 150px;
+    height: 150px;
+    margin-top: 20px;
+    object-fit:cover;
+    border-radius: 50%;
+    /*border: solid 1px white;*/
+    box-shadow: 1px -1px 3px rgba(255, 255, 255, 0.471), 9px -5px #55ACDC, 10px -6px 3px #656f75;
+}
+#name{
+    font-family:'Outfit', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 0;
+    padding: 0;
+}
+#profession{
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    color:#55ACDC;
+    margin-top: 1px;
+}
+#opinion{
+    font-family: 'Outfit', sans-serif;
+    font-size: 14px;
+    margin-bottom: 4px;
+    font-weight: 100;
+}
+.btn-container{
+    margin-top: 0;
+    padding: 0;
+    margin-bottom: 0px;
+    align-items: center;
+}
+.btns{
+    padding: 0;
+    font-size: 40px;
+    border: none;
+    color:#55ACDC;
+    outline: none;
+    background-color: white;
+    cursor: pointer;
+}
+.btns:hover{
+    color: #38789b
+}
+.randombtn{
+    margin-top:0;
+    margin-bottom: 25px;
+    color:#55ACDC;
+    border: solid 2px #55ACDC;
+    background-color:#55addc44;
+    font-size: 14px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+/*
+.heading{ 
+    font-family: 'Outfit', sans-serif;
+    height:100%;
+    margin-top: 5dvw;
+    padding:5dvw;
+    align-items: center;
+}
+.underline{
+    width:160px;
+    height: 5px;
+    background-color: green;
+    
+}
+.card{
+    width: 30dvw;
+    height: 20dvw;
+    margin:auto;
+    background-color: #FFFFFF;
+    padding: 2%;
+    font-size: 12px;
+    align-items: center;
+    overflow: hidden;
+    
+}
+#profession{
+    color:#BDDAE5;
+}
+.photo-review{
+  width: 150px;
+  height: 150px;
+  position: relative;
+  border-radius: 50%;
+  padding: 5px;
+  margin-bottom: 2rem;
+}

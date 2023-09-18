@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="description" content="Exercise for class. Calculate APY">
+        <meta name="keywords" content="exercise, class, hrml, css, basics">
+        <meta name="viewport" content="widht=device-widht, initial-scale=1.0">
+        <title>Calculate APY</title>
+        <style>
+            label{
+                display: block;
+            }
+            .form{
+                width:50%;
+                padding: 10px;
+                background-color: #F2F1DC;
+                border-radius: 5px;
+                border: 0px;
+            }
+
+        </style>
+        <script>
+            function Name {
+                let firstName = "", lastName="";
+                firstName = document.getElementById("firstName");
+                lastName = document.getElementById("lastName")
+            }
+            let person= {
+                age: 30;
+                name: "Camilo";
+            }
+
+        </script>
+    </head>
+    <body>
+       <p>Calculate your APY</p>
+            <section name="form">
+                <form id="apyMonth" method="action">
+                <label for="firstName">First Name</label> <br>
+                <imput type="text" name="firstName" id="firstName" placeholder="Name"></imput>
+                </form>
+            </section>
+            <section name="form">
+                <form id="apyMonth" method="action">
+                <label for="lastName">Last Name</label> <br>
+                <imput type="text" name="lastName" id="lastName"></imput>
+           </form>
+            </section>
+            <section>
+                <form id="apyMonth" method="action">
+                <label for="loanOriginal">Loan Original Amount</label> <br>
+                <imput type="number" name="loanOriginal" id="loanOriginal"></imput>
+            </form>
+            </section>
+            <secrion name="form">
+                <label for="apyRate">Interest rate APY</label> <br>
+                <imput type="number" name="apyRate" id="apyRate"></imput>
+            </secrion>
+            <section name="form">
+                <label for="totalPA">Your total payment amount will be</label> <br>
+                <imput type="number" name="totalPA" id="totalPA"></imput>
+            </section>
+        </form>
+    </body>
+</html>
