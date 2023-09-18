@@ -4,7 +4,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
 //local reviwe data
 const reviews =[
-    {photo: "Images/chris-johnson.jpg" ,
+    {photo: "Images/chris-johnson.jpg",
      author: "Christ Johnson", 
      profession: "Used for 1 Year",
      opinion: "A full year with the Fluffernutter Whizbang and every day feels like the first! Whenever someone asks me about the secret to my happiness, I just point them to www.FunkyFluffernutterWhizbang.com. This product is the epitome of 'Don't judge a book by its cover' (or name)!",  
@@ -63,13 +63,13 @@ window.addEventListener("DOMContentLoad", function(){
 
 function showPerson(person){
     const item = reviews[person];
-    photo.scr= item.photo;
+    photo.scr= item.image;
     author.textContent= item.author;
     usetime.textContent = item.usetime;
     opinion.textContent = item.opinion;
 }
 
-//show next person no me funciona
+//show next person 
 
 rigbtn.addEventListener("click", function(){
     currentItem++;
@@ -88,7 +88,9 @@ lefbtn.addEventListener("click", function(){
 })
 //random btn
 randombtn.addEventListener("click", function(){
-    
+    currentItem = Math.floor(Math.random() * reviews.length);
+    console.log(currentItem);
+    showPerson(currentItem)
 })
 
 
